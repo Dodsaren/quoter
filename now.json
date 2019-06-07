@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "quote/index.js", "use": "@now/node" },
-    { "src": "quoter.js", "use": "@now/node" }
-  ]
+  "builds": [{ "src": "quote/index.js", "use": "@now/node" }]
 }
