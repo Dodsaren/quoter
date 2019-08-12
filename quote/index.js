@@ -2,6 +2,7 @@ const getRandomQuote = require('get-random-quote')
 
 module.exports = async (req, res) => {
   const quote = await getQuote()
+  res.setHeader('content-type', 'application/json')
   res.end(JSON.stringify(quote))
 }
 
