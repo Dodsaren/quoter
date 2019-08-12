@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
 }
 
 function getQuote() {
-  if (Math.ceil(Math.random() * 10) < 3) {
+  if (Math.random() < 0.3) {
     return {
       author: 'Vera Bergström',
       text: 'En tjock man kan inte slingra sig',
